@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 
 :root {
-  --primary-color: #396E94;
-  --secondary-color: #E7C24F;
+  --primary-color: #0A2463;
+  --secondary-color: #92140C;
   --accent1-color: #A43312;
-  --accent2-color: white;
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif
+  --accent2-color: #FFCF99;
+  --heading-font: "Open Sans", sans-serif;
+  --paragraph-font: "Roboto", Helvetica, sans-serif;
 }
 
 html {
@@ -37,7 +37,7 @@ h6 {
 header {
   padding: 1em;
   text-align: center;
-  color: var(--accent2-color);
+  color: var(--secondary-color);
   background-color:
 }
 
