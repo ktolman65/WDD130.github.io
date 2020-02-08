@@ -11,7 +11,6 @@ body {
 div.page-container {
   max-width: 960px;
   margin: 0 auto;
-  /*box-shadow: 0 0 30px #000000;*/
 }
 
 
@@ -20,19 +19,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000;
 }
 
-header, nav, main, footer {
+/*header, nav, main, footer {
    margin: 0 auto;
-}
+}*/
 
 header {
   background-color: #CCC7B9;
   padding: 0;
   display: flex;
   align-items: center;
-  /*color: #000000;
+  justify-content: center;
+  color: #000000;
   border: 1px solid #333333;
   text-align: center;
-  justify-content: center;*/
 }
 
 header img {
@@ -60,12 +59,6 @@ header img {
   letter-spacing: 1.5pt;
 }
 
-p {
-  font-family: "Lato", Helvetica, sans-serif;
-  color: #000000;
-  padding: 1em;
-}
-
 nav {
   background-color: #3799d1;
   margin: 0;
@@ -73,7 +66,6 @@ nav {
   line-height: .5em;
   font-size: 1em;
   max-width: 960px;
-  /*border: 1px solid #333333;*/
 }
 
 nav ul {
@@ -91,7 +83,7 @@ nav ul li a {
   display: block;
   text-decoration: none;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: .8rem;
   padding: 10px;
 }
 
@@ -113,10 +105,34 @@ nav a:hover {
   background-color: white;
 }
 
-div.footer {
+.main-image {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+  /*box-shadow: 0 0 80px #000000;*/
+}
+
+.h2-headings {
+  font-size: 1em;
+  color: #000000;
+  margin: 0;
+  margin-left: 50px;
+
+}
+
+.body-parapgraph {
+    font-family: "Lato", Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 6em;
+}
+
+.footer {
   text-align: right;
 } 
 
-/*.social>image {
-  width: 230px; height: auto; border: 0;
+.social-images {
+  text-align: right;
+  /*width: 10px;
+  height: auto;
 }*/
