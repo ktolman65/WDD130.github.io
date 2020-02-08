@@ -3,8 +3,8 @@
 :root {
   --primary-color: #283D3B;
   --secondary-color: #6CD4FF;
-  --accent1-color: #CCC7B9;
-  --accent2-color: #B8C5D6;
+  --accent1-color: white;
+  --accent2-color: black;
   --heading-font: "Roboto", sans-serif;
   --paragraph-font: "Lato", Helvetica, sans-serif;
 }
@@ -16,7 +16,7 @@ html {
 body {
   max-width: 900px;
   margin: 0 auto;
-  background-color: white;
+  background-color: var(--accent1-color);
   padding: 1em
 }
 
@@ -31,7 +31,7 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font);
-  color: black;
+  color: var(--accent2-color);
 }
 
 header {
@@ -42,12 +42,12 @@ header {
 }
 
 header>h1 {
-  color: black;
+  color: var(--accent2-color);
 }
 
 p {
   font-family: var(--paragraph-font);
-  color: black;
+  color: var(--accent2-color);
   padding: 1em;
 }
 
@@ -101,7 +101,7 @@ nav a {
 }
 
 nav a:link{
-  color: black;
+  color: var(--accent2-color);
 }
 
 nav a:visited {
