@@ -95,6 +95,7 @@ h2 {
 .content3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  
 }
 
 .red3 {
@@ -105,14 +106,14 @@ h2 {
 }
 
 .green3 {
-  width: 300px;
+  width: 265px;
   height: 200px;
   background-color: green;
   grid-column: 1/2;
 }
 
 .gold3 {
-  width: 300px;
+  width: 265px;
   height: 200px;
   background-color: gold;
   grid-column: 3/4;
