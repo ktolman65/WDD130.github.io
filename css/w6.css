@@ -5,12 +5,22 @@ body {
   font-family: 'Courier New', Courier, monospace
 }
 
+h1 {
+  text-decoration: underline;
+  color: navy;
+}
+
+h2 {
+  border-bottom: 1px solid #333;
+}
+
 /* Activity 1 styles */
 .content1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
+  max-width: 600px;
   grid-gap: 20px;
+  justify-items: center;
 }
 
 .red1 {
