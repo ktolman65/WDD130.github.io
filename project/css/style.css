@@ -386,6 +386,7 @@ footer {
 .about-image-desolation {
   grid-column: 1/3;
   grid-row: 10/11;
+  padding-bottom: 2em;
   margin: 0;
 }
 
