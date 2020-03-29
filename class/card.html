@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | W12 Activity: Media Card | Ken Tolman</title>
+    <link rel="stylesheet" href="card.css">
+    <style>
+      .card {
+        width: 320px;
+        background-color: white;
+        box-shadow: 1px 1px 4px 1px #888;
+        border-radius: 3px;
+        overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+      }
+
+      img {
+        max-width: 100%;
+      }
+      
+      p {
+        padding: 0 20px;
+        line-height: 1.5em;
+      }
+
+      footer {
+        padding: 0 20px 20px;
+        color: gray; 
+        font-size: 12px;
+      }
+
+      button {
+        border: solid 1px;
+        color: gray;
+        background-color: white;
+        padding: 8px;
+      }
+
+      .viewButton {
+        border-radius: 3px 0 0 3px;
+      }
+
+      .editButton {
+        border-radius: 0 3px 3px 0;
+        border-left: none;
+      }
+
+      span {
+        padding-left: 150px;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <article class="card">
+      <img src="https://picsum.photos/320/240" alt="Random Pic">
+      <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a litle bit longer.</p>
+      <footer>
+        <button class="viewButton" type="button">View</button
+        ><button class="editButton">Edit</button>
+        <span>9 mins</span>
+      </footer>
+    </article>
+  </body>
+  
+</html>
