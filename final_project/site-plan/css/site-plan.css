@@ -1,22 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
 
-:root {
-  --primary-color: #2B2118;
   --secondary-color: #6F1A07;
   --accent1-color: #ECF0F1;
   --accent2-color: #A8763E;
-  --heading-font: "Roboto", sans-serif;
-  --paragraph-font: "Lato", Helvetica, sans-serif;
-}
 
 html {
-  background-color: var(--primary-color);
+  background-color: #2B2118;
 }
 
 body {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #ffffff;
 
 }
 
@@ -25,27 +20,27 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--primary-color);
+  font-family: "Roboto", Helvetica, sans-serif;
+  color: #2B2118;
 }
 
 header {
   padding: 1em;
   text-align: center;
-  color: var(--primary-color);
-  background-color: var(--accent2-color);
+  color: #2B2118;
+  background-color: #A8763E;
 }
 
 main {
   margin: 0 15px;
 }
 header h1 {
-  color: var(--primary-color);
+  color: #2B2118;
 }
 
 p {
-  font-family: var(--paragraph-font);
-  color: var(--primary-color);
+  font-family: "Lato", Helvetica, sans-serif;
+  color: #2B2118;
   padding: 1em;
 }
 
@@ -66,19 +61,19 @@ p {
 }
 
 .primary {
-  background-color: var(--primary-color);
+  background-color: #2B2118;
 }
 
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: #6F1A07;
 }
 
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: #ECF0F1;
 }
 
 .accent2 {
-  background-color: var(--accent2-color);
+  background-color: #A8763E;
 }
 
 .nav {
@@ -158,4 +153,5 @@ footer {
   .home-grid {
     display: block;
     clear: both;
+  }
 }
