@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
 
 :root {
   --primary-color: #2B2118;
@@ -14,10 +14,10 @@ html {
 }
 
 body {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   background-color: white;
-  padding: 1em;
+
 }
 
 img {
@@ -36,7 +36,10 @@ header {
   background-color: var(--accent2-color);
 }
 
-header>h1 {
+main {
+  margin: 0 15px;
+}
+header h1 {
   color: var(--primary-color);
 }
 
@@ -78,32 +81,81 @@ p {
   background-color: var(--accent2-color);
 }
 
-nav {
-  background-color: var(--accent2-color);
-  line-height: 3em;
-  text-align: center;
-  font-size: 1.2em;
+.nav {
+  background-color: #6F1A07;
+  margin: 0;
+  padding: 0em;
+  line-height: .5em;
+  font-size: 1em;
 }
 
-nav>ul {
-  list-style-type: none;
+.nav ul {
   display: flex;
+  flex-direction: row;
+  margin: 0;  
+  padding: 0;
 }
 
-nav a {
+.nav ul li {
+  list-style: none;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: .8rem;
+  padding: 1rem;
+  clear: both;
+}
+
+.nav a {
   padding: 1em;
-  min-width: 70px;
+  min-width: 70px
 }
 
-nav a:link{
-  color: var(--primary-color);
+.nav a:link{
+  color: #ECF0F1;
 }
 
-nav a:visited {
-  color: gray;
+.nav a:visited {
+  color: lightgray;
 }
 
-nav a:hover {
-  color: blue;
+.nav a:hover {
+  color: #0000ff;
   background-color: white;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;  
+  background-color: #A8763E;
+}
+
+.footer-text {
+  grid-column: 1 / 2; 
+  grid-row: 1 / 2;
+  font-style: italic;
+  color: #000000;
+  font-size: 1rem;
+  letter-spacing: .4pt;
+  margin-left: 10px;
+}
+
+.social-images {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  text-align: right;
+  padding-top: .5em;
+  padding-right: .5em;
+}
+
+@media screen and (max-width: 550px) {
+  .home-grid {
+    display: block;
+    clear: both;
 }
