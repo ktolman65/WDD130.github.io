@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
 
-  --secondary-color: #6F1A07;
-  --accent1-color: #ECF0F1;
-  --accent2-color: #A8763E;
-
 html {
   background-color: #2B2118;
 }
@@ -12,11 +8,12 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
-
+  font-family: "Lato", Helvetica, sans-serif;
 }
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
